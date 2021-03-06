@@ -113,6 +113,10 @@ Make a Village Simulation with the following features.
   
  ## Devopment Proccess
  
+ ### Sage 0
+ 
+ * Create General definitions of all classes
+ 
  ### Stage 1
  
  * Make abstract classes
