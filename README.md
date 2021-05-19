@@ -11,6 +11,7 @@ This is a remake of my old village simulator that will be used to test my curren
 ## Premise
 
 Make a Village Simulation with the following features.
+
 * Breeding Mechanics
   * Inbreeding discouaged
 * Villager Jobs
@@ -47,10 +48,10 @@ Make a Village Simulation with the following features.
 * Product
   * made by some job
   * has some usage (making a building or feeding)
- * Food
-   * Extends Product
-   * Has amount of food value
-   * Has experation, ie each day it is in storage it looses some of its food value
+* Food
+  * Extends Product
+  * Has amount of food value
+  * Has experation, ie each day it is in storage it looses some of its food value
 
 ### General Classes
 
@@ -69,14 +70,14 @@ Make a Village Simulation with the following features.
   * Produces Food
   * XP based on # of food items produced
   * XP/Level = 50
- * Miner
-   * Extends Job
-   * Produces
-     * Stone
-     * Coal
-     * Iron
-     * Gold
-    * xp based on raised rarity of items level
+* Miner
+  * Extends Job
+  * Produces
+    * Stone
+    * Coal
+    * Iron
+    * Gold
+  * xp based on raised rarity of items level
 * Builder
   * Extends Job
   * Prodces Buildings
@@ -88,38 +89,37 @@ Make a Village Simulation with the following features.
 * House
   * Extend Building
   * Increases population by 5
- * Farm
-   * Extends building
-   * INcreases max farmers by 5
-   * Increases max population by 3
-   * has chance to double crop output from a villager who works there
-   * Storse food (reduces rot rate) (max 50)
- * Mine
-   *  Extends building
-   *  Increases max Miners by 10
-   *  Has random chance to double product of one villager that works in it
-   *  Increase max population by 1
-   *  Stores Coal, Iron, Gold (max 100)
- *  Town Center
-    *  Extend building
-    *  Stores any product (max 1000) (double rot rate)
-    *  infinate housing value (reduces health of all villagers housed in it by 1/villager/day)
-    *  Work place for builders
- *  Storage
-    *  Stores Items (max 1000)
-    *  0 Population increase
-    *  No buffs
+* Farm
+  * Extends building
+  * INcreases max farmers by 5
+  * Increases max population by 3
+  * has chance to double crop output from a villager who works there
+  * Storse food (reduces rot rate) (max 50)
+* Mine
+  * Extends building
+  * Increases max Miners by 10
+  * Has random chance to double product of one villager that works in it
+  * Increase max population by 1
+  * Stores Coal, Iron, Gold (max 100)
+* Town Center
+  * Extend building
+  * Stores any product (max 1000) (double rot rate)
+  * infinate housing value (reduces health of all villagers housed in it by 1/villager/day)
+  * Work place for builders
+* Storage
+  * Stores Items (max 1000)
+  * 0 Population increase
+  * No buffs
   
-  
- ## Devopment Proccess
- 
- ### Sage 0
- 
- * Create General definitions of all classes
- 
- ### Stage 1
- 
- * Make abstract classes
+## Devopment Proccess
+
+### Sage 0
+
+* Create General definitions of all classes
+
+### Stage 1
+
+* Make abstract classes
 
 ### Stage 2
 
